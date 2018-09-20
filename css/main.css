@@ -1,0 +1,98 @@
+@font-face {
+     font-family: Pimenta;
+     src: url('Royalacid.ttf');
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  -webkit-border-radius: 16px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #ffffff;
+  -webkit-border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  background-color: #EA4397;
+  -webkit-border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  width: 5px;
+  background-color: #EA4397;
+  -webkit-border-radius: 3px;
+}
+
+.l-color{
+    background-color: #EA4397;
+    color: white;   
+    border: 20px black;
+}
+
+.titulo{
+    color: #EA4397;
+    font-family: Pimenta;
+    font-size: 35px;
+}
+
+.t-apresentacao{
+    color: #EA4397;
+    font-family: Pimenta;
+}
+
+#img-apresentacao{
+    background-image:url(../img/apresentacao.jpg);
+    border-bottom: #D1B0D1 30px ridge;
+}
+
+#img-infantil{
+    background-image:url(../img/infantil.jpg);
+}
+
+#img-casamento{
+    background-image:url(../img/casamentoinicio.jpg);
+}
+
+#filtro{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 700px;
+}
+
+#fundoroxo{
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.p-apresentacao{
+    padding: 5% 5% 5% 5%;
+}
+
+#img-casamento, #img-infantil, #img-apresentacao{
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#b-apresentacao{
+    border: #D1B0D1 10px double;
+}
+
+#contato{
+    border: #D1B0D1 10px double;
+}
+
+.l-modal{
+    color: #EA4397;
+}
+
+.btn-modal{
+    background-color: #EA4397;
+    color: white;
+}
+
+footer{
+    background-color: black;
+}
